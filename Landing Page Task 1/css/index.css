@@ -1,0 +1,581 @@
+/* CSS RESET */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+
+
+}
+
+
+
+
+
+/* Header Section */
+
+.video-bg {
+    /* z-index: -1;
+    position: absolute;
+    height: 80vh;
+    width: 100vw;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    z-index: -1;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+
+}
+
+.video-bg video {
+    /* height: auto;
+    width: auto;
+    overflow: hidden;
+    min-height: 100%;
+    min-width: 100%;
+    overflow-x: hidden; */
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+.top_header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    overflow-x: hidden;
+    
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: black;
+    padding: 10px;
+}
+
+.navbar {
+
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+
+
+
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar ul li {
+    display: flex;
+    flex-direction: row;
+    padding: 18px;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.navbar li a:hover {
+    cursor: pointer;
+    color: red;
+}
+
+/* Section 1 */
+
+.title-wrapper {
+    position: absolute;
+    overflow-x: hidden;
+
+}
+
+.title {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+
+}
+
+.cover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.cover-text h1 {
+    font-size: 2rem;
+    margin: 0;
+    position: relative;
+    -webkit-animation: moving 5s infinite;
+    
+}
+
+.cover-text h5 i {
+
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1rem
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+
+/* SECTION 2 */
+
+.section_two {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+    margin: 30px;
+    padding: 30px;
+}
+
+.section_two h2 {
+    margin: 25px;
+    text-align: center;
+}
+
+.intro {
+    font-size: 0.4rem;
+    padding: 50px;
+}
+
+
+/* NEWSLETTERS */
+
+.newsletters h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+.newsletters_container {
+
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+
+/* UTILITY CLASS */
+
+.btn {
+    background-color: red;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    border: 0px solid transparent;
+    border-radius: 7px;
+    cursor: pointer;
+
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: rgb(255, 67, 77);
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.order {
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: rgb(231, 231, 231);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+
+}
+
+.order h1 {
+    text-align: center;
+    font-size: 1.9rem;
+    padding: 50px;
+}
+
+.btn_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+}
+
+.scroll-icon{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    margin-left: 10px;
+    transition: all .25s ease-in-out;
+}
+
+
+/* Slideshow Flexbox */
+
+.slideshow {
+    width: 100%;
+}
+
+
+
+.slideshow h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.9rem;
+    text-align: center;
+    margin: 50px;
+}
+
+.s_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.s_container div {
+
+    margin: 10px 10px;
+
+
+}
+
+
+
+
+
+.c_item h5 {
+
+    font-size: 1.4rem;
+
+    padding: 20px;
+ 
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+footer span {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.nvg_search {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.fitems {
+
+    padding: 20px;
+    margin: 10px 10px;
+
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.slideshow2 {
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.slideshow2 h4 {
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+/* Testimonials Section */
+
+.testimonials{
+
+    display: flex;
+    width: 100%;
+
+}
+
+.t-image{
+
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.t-image img{
+    width: 80%;
+    height: 100%;
+   
+}
+
+.t-text{
+    width: 50%;
+    margin:50px;
+}
+
+.t-items{
+
+    margin: 15px;
+}
+
+
+.t-text h4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.9rem;
+    margin: 0px 0px;
+    text-align: center;
+
+    margin: 25px 0px;
+    
+}
+
+@keyframes intro{
+    from{
+        top:0px;
+    }
+
+    to{
+
+        bottom:70px;
+
+
+    }
+}
+
+/* @media only screen and (min-width:0px) and (max-width: 300px) {
+
+    .video-bg {
+        height: 97vh;
+    }
+
+    .title h3 {
+        font-size: 1.5rem;
+    }
+
+    .buttons {
+        display: flex;
+
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .buttons button {
+
+        margin: 10px 10px;
+        padding: 20px;
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 301px) and (max-width: 600px) {
+
+    .video-bg {
+        height: 90vh;
+    }
+
+    .title h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .title h3 {
+        font-size: 2.5rem;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .title_two {
+        padding-top: 50px;
+    }
+
+    .title h3 {
+        font-size: 2.2rem;
+    }
+
+    .nav_items {
+
+        font-size: 0.7rem;
+
+    }
+
+    .section_two {
+
+        margin-top: 400px;
+    }
+
+    .title {
+        display: flex;
+        margin: 20px;
+        font-size: 1.1rem;
+        padding-top: 30px;
+
+    }
+
+    .newsletters h3 {
+        font-size: 1.5rem;
+    }
+
+    .newsletters input {
+        padding: 20px 10px;
+    }
+
+    .buttons {
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .buttons button {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .section_two {
+        margin-top: 0px;
+    }
+
+    .newsletters_container {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+
+    .section_two {
+
+        margin-top: 170px;
+        padding: 50px;
+        font-size: 2.2rem;
+        margin-bottom: 40px;
+
+
+    }
+
+    .video-bg {
+        height: 70%;
+
+    }
+
+    .section_two h2 {
+        margin-bottom: 40px;
+    }
+
+    .contact h1 {
+
+        font-size: 2.7rem;
+    }
+
+    .btn_container {
+        padding: 20px;
+    }
+
+    #contactus {
+
+        font-size: 2.1rem;
+        padding: 30px;
+    }
+
+    .s_container {
+
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .buttons {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .buttons button {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+} */
