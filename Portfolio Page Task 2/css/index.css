@@ -1,0 +1,161 @@
+/* CSS RESET */
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top_header{
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(38, 38, 38);
+    width: 100%;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+   
+}
+
+.navbar ul li{
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container{
+
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-container h1{
+    color: white;
+    font-size: 3.1rem;
+    margin: 30px 10px;
+}
+
+.section-two{
+    padding: 20px 20px;
+    display: inline-block;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+}
+
+.section-two h1{
+
+    font-size: 1.5rem;
+    margin: 20px 0px;
+}
+
+#about{
+
+    padding: 10px 0px;
+}
+
+.img-about-me{
+    margin-top: 10px;
+    width:fit-content;
+    display: inline-block
+
+}
+
+.achievements{
+    width:27%;
+    display: inline-block;
+    padding: 20px 20px;
+
+}
+
+.achievements h1{
+
+    margin: 20px 0px;
+}
+
+.achievements h2{
+    margin: 10px 0px;
+}
+
+.sections{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.img-para{
+    width:100%;
+    display: flex;
+}
+
+#img-text{
+    width: 67%;
+    margin:10px;
+}
+
+.fitems{
+    display: flex;
+    flex-direction: column;
+}
+
+#contactme{
+
+    margin-top: 20px;
+}
+
+
+
+footer{
+    background-color: rgb(38, 38, 38);
+    color: white;
+    height: 40px;
+    padding: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+}
+
+/* Utilities */
+
+.btn{
+    padding: 10px;
+    border: 0px transparent;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    margin: 10px;
+}
+
+
+
+
